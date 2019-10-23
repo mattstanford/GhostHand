@@ -49,6 +49,7 @@
 		C9D30269235FE5B4008593A9 /* GhostHandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhostHandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D3026D235FE5B4008593A9 /* GhostHandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostHandUITests.swift; sourceTree = "<group>"; };
 		C9D3026F235FE5B4008593A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D3027B235FE7F1008593A9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../../.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 				C9D30254235FE5B3008593A9 /* Assets.xcassets */,
 				C9D30256235FE5B3008593A9 /* LaunchScreen.storyboard */,
 				C9D30259235FE5B3008593A9 /* Info.plist */,
+				C9D3027B235FE7F1008593A9 /* .gitignore */,
 			);
 			path = GhostHand;
 			sourceTree = "<group>";
