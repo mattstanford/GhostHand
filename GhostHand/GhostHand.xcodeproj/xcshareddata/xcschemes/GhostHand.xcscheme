@@ -48,16 +48,6 @@
                ReferencedContainer = "container:GhostHand.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C9D30288235FE94C008593A9"
-               BuildableName = "GhostHandLibTests.xctest"
-               BlueprintName = "GhostHandLibTests"
-               ReferencedContainer = "container:GhostHand.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
