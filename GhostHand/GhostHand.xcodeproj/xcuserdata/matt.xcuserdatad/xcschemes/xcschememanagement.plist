@@ -9,6 +9,39 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>GhostHandLib.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C9D30247235FE5B3008593A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9D3025D235FE5B3008593A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9D30268235FE5B4008593A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9D30280235FE94C008593A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9D30288235FE94C008593A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
