@@ -14,20 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C9D30247235FE5B3008593A9"
-               BuildableName = "GhostHand.app"
-               BlueprintName = "GhostHand"
-               ReferencedContainer = "container:GhostHand.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "C9D30280235FE94C008593A9"
                BuildableName = "GhostHandLib.framework"
                BlueprintName = "GhostHandLib"
