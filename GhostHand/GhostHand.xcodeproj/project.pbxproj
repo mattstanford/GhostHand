@@ -17,6 +17,7 @@
 		C9D30291235FE94C008593A9 /* GhostHandLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D30290235FE94C008593A9 /* GhostHandLibTests.swift */; };
 		C9D30293235FE94C008593A9 /* GhostHandLib.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D30283235FE94C008593A9 /* GhostHandLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9EF9723236504F700D21618 /* GhostHand.app in Resources */ = {isa = PBXBuildFile; fileRef = C9BBEB4A236503AC00DA8104 /* GhostHand.app */; };
+		C9EF97312367F88700D21618 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C9EF97302367F88700D21618 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		C9D30290235FE94C008593A9 /* GhostHandLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostHandLibTests.swift; sourceTree = "<group>"; };
 		C9D30292235FE94C008593A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D302AF235FF241008593A9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../../../.gitignore; sourceTree = "<group>"; };
+		C9EF97302367F88700D21618 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 				C9D30251235FE5B3008593A9 /* Main.storyboard */,
 				C9D30254235FE5B3008593A9 /* Assets.xcassets */,
 				C9D30256235FE5B3008593A9 /* LaunchScreen.storyboard */,
+				C9EF97302367F88700D21618 /* LICENSE */,
 			);
 			path = "supporting files";
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 			files = (
 				C9D30258235FE5B3008593A9 /* LaunchScreen.storyboard in Resources */,
 				C9D30255235FE5B3008593A9 /* Assets.xcassets in Resources */,
+				C9EF97312367F88700D21618 /* LICENSE in Resources */,
 				C9D30253235FE5B3008593A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
