@@ -73,7 +73,7 @@
 		C9D30292235FE94C008593A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D302AF235FF241008593A9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../../../.gitignore; sourceTree = "<group>"; };
 		C9EF97302367F88700D21618 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
-		C9EF9732236948B000D21618 /* GhostHand.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = GhostHand.podspec; path = ../../../GhostHand.podspec; sourceTree = "<group>"; };
+		C9EF9732236948B000D21618 /* GhostHand.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = GhostHand.podspec; path = ../../../GhostHand.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

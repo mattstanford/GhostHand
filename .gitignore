@@ -3,7 +3,6 @@
 # Edit at https://www.gitignore.io/?templates=swift,xcode
 
 #Custom
-GhostHand/Built_Product/
 .DS_Store
 
 ### Swift ###
