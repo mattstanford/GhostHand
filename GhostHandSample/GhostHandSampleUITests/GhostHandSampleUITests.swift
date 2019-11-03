@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import GhostHandLib
 
 class GhostHandSampleUITests: XCTestCase {
 
@@ -18,13 +19,10 @@ class GhostHandSampleUITests: XCTestCase {
         wait(for: app.staticTexts["Sample App for 👻"])
         
         XCUIDevice.shared.press(XCUIDevice.Button.home)
-        let linkerApp = XCUIApplication(bundleIdentifier: "com.mattstanford.GhostHand")
-        linkerApp.launchEnvironment["launchUrl"] = "myTestApp://TEST"
-        
-        linkerApp.launch()
-        
+        GhostHand.launch(url: "myTestApp://TEST")
         wait(for: app.staticTexts["Sample App for 👻"])
     }
+    
 
     func wait(for object: Any, timeInSeconds: TimeInterval = 5) {
          let exists = NSPredicate(format: "exists == true")
