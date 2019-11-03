@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C915CA89236F6FD100165B9C /* ghosthand_install.sh in Resources */ = {isa = PBXBuildFile; fileRef = C915CA88236F6FD100165B9C /* ghosthand_install.sh */; };
 		C9D3024C235FE5B3008593A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3024B235FE5B3008593A9 /* AppDelegate.swift */; };
 		C9D30253235FE5B3008593A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D30251235FE5B3008593A9 /* Main.storyboard */; };
 		C9D30255235FE5B3008593A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D30254235FE5B3008593A9 /* Assets.xcassets */; };
@@ -52,7 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C9BBEB4A236503AC00DA8104 /* GhostHand.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = GhostHand.app; path = ../../Built_Product/GhostHand.app; sourceTree = "<group>"; };
+		C915CA88236F6FD100165B9C /* ghosthand_install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ghosthand_install.sh; sourceTree = "<group>"; };
+		C9BBEB4A236503AC00DA8104 /* GhostHand.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = GhostHand.app; sourceTree = "<group>"; };
 		C9D30248235FE5B3008593A9 /* GhostHand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhostHand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D3024B235FE5B3008593A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9D30252235FE5B3008593A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -116,12 +118,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C9BBEB492365030300DA8104 /* built_app */ = {
+		C9BBEB492365030300DA8104 /* Built_Product */ = {
 			isa = PBXGroup;
 			children = (
 				C9BBEB4A236503AC00DA8104 /* GhostHand.app */,
+				C915CA88236F6FD100165B9C /* ghosthand_install.sh */,
 			);
-			path = built_app;
+			path = Built_Product;
 			sourceTree = "<group>";
 		};
 		C9D3023F235FE5B3008593A9 = {
@@ -179,7 +182,7 @@
 		C9D30282235FE94C008593A9 /* GhostHandLib */ = {
 			isa = PBXGroup;
 			children = (
-				C9BBEB492365030300DA8104 /* built_app */,
+				C9BBEB492365030300DA8104 /* Built_Product */,
 				C9D30283235FE94C008593A9 /* GhostHandLib.h */,
 				C9D30284235FE94C008593A9 /* Info.plist */,
 			);
@@ -418,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9EF976323694EFE00D21618 /* GhostHand.app in Resources */,
+				C915CA89236F6FD100165B9C /* ghosthand_install.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
