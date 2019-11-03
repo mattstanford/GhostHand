@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GhostHand'
-  s.version          = '0.2.1'
+  s.version          = '0.2.3'
   s.summary          = 'XCUITest helper for testing custom schemes & universal links'
 
 # This description is used to generate tags and improve search results.
