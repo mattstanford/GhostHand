@@ -17,7 +17,7 @@
 		C9D3026E235FE5B4008593A9 /* GhostHandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3026D235FE5B4008593A9 /* GhostHandUITests.swift */; };
 		C9D3028A235FE94C008593A9 /* GhostHandLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D30281235FE94C008593A9 /* GhostHandLib.framework */; };
 		C9D30291235FE94C008593A9 /* GhostHandLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D30290235FE94C008593A9 /* GhostHandLibTests.swift */; };
-		C9D30293235FE94C008593A9 /* GhostHandLib.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D30283235FE94C008593A9 /* GhostHandLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9D30293235FE94C008593A9 /* README.md in Headers */ = {isa = PBXBuildFile; fileRef = C9D30283235FE94C008593A9 /* README.md */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9EF97312367F88700D21618 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C9EF97302367F88700D21618 /* LICENSE */; };
 		C9EF976323694EFE00D21618 /* GhostHand.app in Resources */ = {isa = PBXBuildFile; fileRef = C9BBEB4A236503AC00DA8104 /* GhostHand.app */; };
 /* End PBXBuildFile section */
@@ -57,6 +57,7 @@
 		C915CA88236F6FD100165B9C /* ghosthand_install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = ghosthand_install.sh; path = ../../ghosthand_install.sh; sourceTree = "<group>"; };
 		C985AA15236F8188005EF98B /* GhostHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostHand.swift; sourceTree = "<group>"; };
 		C985AA18236F81F2005EF98B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C985AA1C23711B4D005EF98B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C9BBEB4A236503AC00DA8104 /* GhostHand.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = GhostHand.app; sourceTree = "<group>"; };
 		C9D30248235FE5B3008593A9 /* GhostHand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhostHand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D3024B235FE5B3008593A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,7 +72,7 @@
 		C9D3026D235FE5B4008593A9 /* GhostHandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostHandUITests.swift; sourceTree = "<group>"; };
 		C9D3026F235FE5B4008593A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D30281235FE94C008593A9 /* GhostHandLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GhostHandLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9D30283235FE94C008593A9 /* GhostHandLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GhostHandLib.h; path = Classes/GhostHandLib.h; sourceTree = "<group>"; };
+		C9D30283235FE94C008593A9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		C9D30284235FE94C008593A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D30289235FE94C008593A9 /* GhostHandLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhostHandLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D30290235FE94C008593A9 /* GhostHandLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostHandLibTests.swift; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 		C9D3023F235FE5B3008593A9 = {
 			isa = PBXGroup;
 			children = (
+				C985AA1C23711B4D005EF98B /* README.md */,
 				C9D3024A235FE5B3008593A9 /* GhostHand */,
 				C9D30261235FE5B3008593A9 /* GhostHandTests */,
 				C9D3026C235FE5B4008593A9 /* GhostHandUITests */,
@@ -193,7 +195,7 @@
 		C9D30282235FE94C008593A9 /* GhostHandLib */ = {
 			isa = PBXGroup;
 			children = (
-				C9D30283235FE94C008593A9 /* GhostHandLib.h */,
+				C9D30283235FE94C008593A9 /* README.md */,
 				C9D30284235FE94C008593A9 /* Info.plist */,
 				C915CA88236F6FD100165B9C /* ghosthand_install.sh */,
 				C985AA15236F8188005EF98B /* GhostHand.swift */,
@@ -247,7 +249,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9D30293235FE94C008593A9 /* GhostHandLib.h in Headers */,
+				C9D30293235FE94C008593A9 /* README.md in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
