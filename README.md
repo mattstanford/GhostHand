@@ -55,10 +55,11 @@ Once GhostHand is setup on your UI Test Target appropriately, it's time to put i
 
 Here's a simple UI Test that exercises GhostHand. Note that we are assuming the app being tested here has the custom scheme `myApp://` registered in the info.plist properly:
 
-```
-swift
+```swift
 
 func testSample() {
+    let app = XCUIApplication()
+    
     app.launch()
     let appBooted = app.staticTexts["Sample App for 👻"].waitForExistence(timeout: 5)
     XCTAssert(appBooted)
