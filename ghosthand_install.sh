@@ -12,7 +12,11 @@ echo xcrun simctl install ${TARGET_DEVICE_IDENTIFIER} $appLocation
 xcrun simctl install ${TARGET_DEVICE_IDENTIFIER} $appLocation
 
 #Install on any running clones managed by Xcode (if running test in parallel)
-xcrun simctl --set testing install booted $appLocation
+xcrun simctl --set testing list devices | \
+  grep "(Booted)"         | \
+  grep -E -o -i "([0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12})" | \
+  while read deviceUuid ; do xcrun simctl --set testing install $deviceUuid $appLocation ; done
+
 
 
 exit 0
