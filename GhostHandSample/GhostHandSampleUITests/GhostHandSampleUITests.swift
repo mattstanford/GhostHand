@@ -16,17 +16,18 @@ class GhostHandSampleUITests: XCTestCase {
 
     func testSample() {
         app.launch()
-        wait(for: app.staticTexts["Sample App for 👻"])
+        let appBooted = app.staticTexts["Sample App for 👻"].waitForExistence(timeout: 5)
+        XCTAssert(appBooted)
         
+        //Tap the home button to put the app under test in the background
         XCUIDevice.shared.press(XCUIDevice.Button.home)
-        GhostHand.launch(url: "myTestApp://TEST")
-        wait(for: app.staticTexts["Sample App for 👻"])
-    }
-    
+        
+        //Use the GhostHand companion app to launch the custom scheme
+        GhostHand.launch(url: "ghostHandSampleApp://TEST")
+        
+        //The app should be called by the GhostHand companion app
+        let appShowedAgain = app.staticTexts["Sample App for 👻"].waitForExistence(timeout: 5)
+        XCTAssert(appShowedAgain)
 
-    func wait(for object: Any, timeInSeconds: TimeInterval = 5) {
-         let exists = NSPredicate(format: "exists == true")
-         expectation(for: exists, evaluatedWith: object, handler: nil)
-         waitForExpectations(timeout: timeInSeconds, handler: nil)
-     }
+    }
 }

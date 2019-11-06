@@ -25,7 +25,7 @@
 			<string>testScheme</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>myTestApp</string>
+				<string>ghostHandSampleApp</string>
 			</array>
 		</dict>
 	</array>
