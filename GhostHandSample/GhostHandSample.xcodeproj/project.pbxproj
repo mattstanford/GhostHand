@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C915CA8B236F712000165B9C /* GhostHandLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C915CA8A236F712000165B9C /* GhostHandLib.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C985AA202373528B005EF98B /* GhostHandSampleUITests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C985AA1F2373528B005EF98B /* GhostHandSampleUITests2.swift */; };
+		C985AA2223735296005EF98B /* GhostHandSampleUITests3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C985AA2123735296005EF98B /* GhostHandSampleUITests3.swift */; };
 		C9D30341235FF57F008593A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D30340235FF57F008593A9 /* AppDelegate.swift */; };
 		C9D30343235FF57F008593A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D30342235FF57F008593A9 /* SceneDelegate.swift */; };
 		C9D30345235FF57F008593A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D30344235FF57F008593A9 /* ContentView.swift */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		C915CA8A236F712000165B9C /* GhostHandLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GhostHandLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C985AA1F2373528B005EF98B /* GhostHandSampleUITests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostHandSampleUITests2.swift; sourceTree = "<group>"; };
+		C985AA2123735296005EF98B /* GhostHandSampleUITests3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostHandSampleUITests3.swift; sourceTree = "<group>"; };
 		C9D3033D235FF57F008593A9 /* GhostHandSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhostHandSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D30340235FF57F008593A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9D30342235FF57F008593A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,8 +140,10 @@
 		C9D30361235FF580008593A9 /* GhostHandSampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C9D30362235FF580008593A9 /* GhostHandSampleUITests.swift */,
 				C9D30364235FF580008593A9 /* Info.plist */,
+				C9D30362235FF580008593A9 /* GhostHandSampleUITests.swift */,
+				C985AA1F2373528B005EF98B /* GhostHandSampleUITests2.swift */,
+				C985AA2123735296005EF98B /* GhostHandSampleUITests3.swift */,
 			);
 			path = GhostHandSampleUITests;
 			sourceTree = "<group>";
@@ -324,6 +330,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9D30363235FF580008593A9 /* GhostHandSampleUITests.swift in Sources */,
+				C985AA2223735296005EF98B /* GhostHandSampleUITests3.swift in Sources */,
+				C985AA202373528B005EF98B /* GhostHandSampleUITests2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
