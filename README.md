@@ -31,7 +31,7 @@ Then go to your **UI Test Target** in Xcode, click `Build Phases`, and add a new
 Add the GhostHand library to your Cartfile:
 
 ```
-github "mds6058/GhostHand"
+github "mattstanford/GhostHand"
 ```
 
 After you've linked the library properly to your **UI Test Target**, click on the project in Xcode, select the UI Test Target, click `Build Phases`, and add a new run script with the following code:
@@ -45,7 +45,7 @@ After you've linked the library properly to your **UI Test Target**, click on th
 Link the `GhostHandLib` framework to your **UI Test Target** appropriately, click on the project in Xcode, select the UI Test Target, click `Build Phases`, and add a new run script with the following code:
 
 ```
-<PATH_TO_GHOSTHANDLIB>/ghosthand_install.sh
+"<PATH_TO_GHOSTHANDLIB>/ghosthand_install.sh"
 ```
 
 
