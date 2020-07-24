@@ -31,6 +31,7 @@ XCUITest helper for testing custom schemes & universal links. This app will inst
 
   s.source_files = 'GhostHand/GhostHandLib/Classes/**/*'
   s.resources = 'GhostHand/GhostHandLib/Built_Product/*', 'ghosthand_install.sh'
+  s.frameworks = 'XCTest'
   
   # s.resource_bundles = {
   #   'TestCocoaPod' => ['TestCocoaPod/Assets/*.png']
