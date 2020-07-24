@@ -55,7 +55,7 @@
 
 /* Begin PBXFileReference section */
 		C915CA88236F6FD100165B9C /* ghosthand_install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = ghosthand_install.sh; path = ../../ghosthand_install.sh; sourceTree = "<group>"; };
-		C985AA15236F8188005EF98B /* GhostHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostHand.swift; sourceTree = "<group>"; };
+		C985AA15236F8188005EF98B /* GhostHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GhostHand.swift; path = Classes/GhostHand.swift; sourceTree = "<group>"; };
 		C985AA18236F81F2005EF98B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C985AA1C23711B4D005EF98B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C9BBEB4A236503AC00DA8104 /* GhostHand.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = GhostHand.app; sourceTree = "<group>"; };
@@ -795,6 +795,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattstanford.GhostHandLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -834,6 +835,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattstanford.GhostHandLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
