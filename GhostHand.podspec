@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'GhostHand'
   s.version          = '1.0.1'
   s.summary          = 'XCUITest helper for testing custom schemes & universal links'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,12 +33,4 @@ XCUITest helper for testing custom schemes & universal links. This app will inst
   s.source_files = 'GhostHand/GhostHandLib/Classes/**/*'
   s.resources = 'GhostHand/GhostHandLib/Built_Product/*', 'ghosthand_install.sh'
   s.frameworks = 'XCTest'
-  
-  # s.resource_bundles = {
-  #   'TestCocoaPod' => ['TestCocoaPod/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
