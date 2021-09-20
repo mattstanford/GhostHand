@@ -55,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		C915CA88236F6FD100165B9C /* ghosthand_install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = ghosthand_install.sh; path = ../../ghosthand_install.sh; sourceTree = "<group>"; };
+		C982812026F91E5900539A6A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../../Package.swift; sourceTree = "<group>"; };
 		C985AA15236F8188005EF98B /* GhostHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GhostHand.swift; path = Classes/GhostHand.swift; sourceTree = "<group>"; };
 		C985AA18236F81F2005EF98B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C985AA1C23711B4D005EF98B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -216,6 +217,7 @@
 		C9D302A8235FED0E008593A9 /* supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				C982812026F91E5900539A6A /* Package.swift */,
 				C9EF9732236948B000D21618 /* GhostHand.podspec */,
 				C9D30251235FE5B3008593A9 /* Main.storyboard */,
 				C9D30254235FE5B3008593A9 /* Assets.xcassets */,
