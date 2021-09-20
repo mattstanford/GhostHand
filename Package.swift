@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "GhostHandLib",
             resources: [
-                .copy("GhostHand/GhostHandLib/Built_Product/GhostHand.app")
+                .copy("GhostHand/GhostHandLib/Built_Product/GhostHand.app"),
                 .copy("ghosthand_install.sh")
             ]
         )
