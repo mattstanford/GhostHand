@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GhostHand'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'XCUITest helper for testing custom schemes & universal links'
   s.swift_version    = '5.0'
 
