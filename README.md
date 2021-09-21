@@ -7,8 +7,17 @@ But what if there was an easy, reliable and FAST way to test custom schemes/univ
 
 ## Installation
 
-Currently GhostHand supports CocoaPods, Carthage, and manual installs
+Currently GhostHand supports Swift Package Manager, CocoaPods, Carthage, and manual installs
 
+### Swift Package Manager
+
+Click File->Swift Packages->Add Package Dependency..., and add this Github URL as your source URL. Make sure to add it to your **UI Test Target**.
+
+Then go to your **UI Test Target** in Xcode, click  `Build Phases`, and add a new run script with the following code:
+
+```
+"${BUILD_DIR%Build/*}/SourcePackages/checkouts/GhostHand/ghosthand_install.sh"
+```
 ### Cocoapods
 
 First add the GhostHand pod to your project's **UI Test Target** in your `Podfile`:
