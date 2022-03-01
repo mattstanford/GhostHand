@@ -22,8 +22,8 @@ let package = Package(
             name: "GhostHandLib",
             path: "GhostHand/GhostHandLib/Classes/",
             resources: [
-                .copy("GhostHand/GhostHandLib/Built_Product/GhostHand.app"),
-                .copy("ghosthand_install.sh")
+                .copy("../Built_Product/GhostHand.app"),
+                .copy("../../../ghosthand_install.sh")
             ]
         )
     ]
